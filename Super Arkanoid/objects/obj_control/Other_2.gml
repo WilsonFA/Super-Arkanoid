@@ -1,10 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.vidas = 3;
+global.recorde = 0;
+global.pontuacao = 0;
 
-if(started == false)
-{
-	speed = speed_ball;
-	direction = 90;
-	started = true;
-}

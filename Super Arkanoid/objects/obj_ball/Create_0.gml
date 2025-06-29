@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 started = false;
-
+speed_ball = 5;
