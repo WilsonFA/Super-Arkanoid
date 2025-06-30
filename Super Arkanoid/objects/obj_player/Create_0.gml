@@ -1,3 +1,4 @@
 
 
-movement_speed = 10;
+movement_speed = 7;
+powerup = false;
