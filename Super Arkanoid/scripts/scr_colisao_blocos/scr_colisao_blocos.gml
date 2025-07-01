@@ -19,10 +19,22 @@ function scr_colisao_blocos(){
 
 function scr_sorteio_powerup()
 {
+	randomize();
 	var sorteio = irandom(9);
 	
 	if(sorteio == 9)
 	{
 		instance_create_layer(x,y,"itens",obj_item_powerup);
+	}
+}
+
+function scr_colisao_shot()
+{
+	instance_destroy();
+	instance_destroy(other);
+	global.pontuacao += 5;
+	if(global.pontuacao > global.recorde)
+	{
+		global.recorde = global.pontuacao;
 	}
 }
