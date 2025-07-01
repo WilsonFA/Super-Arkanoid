@@ -1,4 +1,4 @@
 
-
-movement_speed = 7;
+speed_player = 7;
+movement_speed = speed_player;
 powerup = false;

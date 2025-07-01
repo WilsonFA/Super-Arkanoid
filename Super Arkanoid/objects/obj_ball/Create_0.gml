@@ -3,3 +3,4 @@
 
 started = false;
 speed_ball = 6;
+rebote_count_wall = 0;

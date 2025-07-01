@@ -3,5 +3,7 @@
 
 powerup = true;
 instance_destroy(other)
+sprite_index = spr_player_shoot;
 alarm[0] = room_speed;
 alarm[1] = room_speed * 5;
+audio_play_sound(snd_activate_powerup, 10, false);
