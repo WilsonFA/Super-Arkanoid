@@ -10,7 +10,7 @@ if(global.vidas < 1)
 {
 	global.pontuacao = 0;
 	global.vidas = 3;
-	room_restart();
+	room_goto(Room1);
 }
 else
 {

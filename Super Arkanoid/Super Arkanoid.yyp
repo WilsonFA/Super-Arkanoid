@@ -9,6 +9,7 @@
     {"id":{"name":"obj_block_gray","path":"objects/obj_block_gray/obj_block_gray.yy",},"order":3,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":1,},
     {"id":{"name":"spr_item_powerup","path":"sprites/spr_item_powerup/spr_item_powerup.yy",},"order":11,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"obj_block_green","path":"objects/obj_block_green/obj_block_green.yy",},"order":4,},
     {"id":{"name":"spr_block_blue","path":"sprites/spr_block_blue/spr_block_blue.yy",},"order":3,},
     {"id":{"name":"spr_shoot","path":"sprites/spr_shoot/spr_shoot.yy",},"order":12,},
@@ -18,6 +19,7 @@
     {"id":{"name":"spr_block_yellow","path":"sprites/spr_block_yellow/spr_block_yellow.yy",},"order":5,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":2,},
     {"id":{"name":"scr_colisao_blocos","path":"scripts/scr_colisao_blocos/scr_colisao_blocos.yy",},"order":0,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"obj_collider_wall","path":"objects/obj_collider_wall/obj_collider_wall.yy",},"order":8,},
     {"id":{"name":"spr_block_purple","path":"sprites/spr_block_purple/spr_block_purple.yy",},"order":6,},
@@ -51,6 +53,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
