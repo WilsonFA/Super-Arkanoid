@@ -1,9 +1,9 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
+
 function scr_colisao_blocos(){
 	//Rebatendo a bola
-	move_bounce_all(true);
-	
+	if(global.rebote_blocos == true) {move_bounce_all(true);}
+		
 	//Destruindo o bloco
 	instance_destroy(other);
 	
@@ -22,6 +22,7 @@ function scr_sorteio_powerup()
 	randomize();
 	var sorteio1 = irandom_range(1,10);
 	var sorteio2 = irandom_range(1,20);
+	var sorteio3 = irandom_range(1,40);
 	
 	if(sorteio1 = 10)
 	{
@@ -31,6 +32,11 @@ function scr_sorteio_powerup()
 	else if(sorteio2 = 20)
 	{
 		instance_create_layer(x, y, "Instances", obj_item_power_up_down);
+		audio_play_sound(snd_item_powerup, 10, false);
+	}
+	if(sorteio3 = 40)
+	{
+		instance_create_layer(x, y, "Instances", obj_item_powerup_ball);
 		audio_play_sound(snd_item_powerup, 10, false);
 	}
 }
@@ -43,5 +49,33 @@ function scr_colisao_shot()
 	if(global.pontuacao > global.recorde)
 	{
 		global.recorde = global.pontuacao;
+	}
+}	
+
+function scr_color_ball_on()
+{
+	if(global.ball_skin_powerup == false)
+	{
+		global.rebote_blocos = false;
+		with(obj_ball) 
+		{
+			sprite_index = spr_ball_powerup;
+		}
+	}
+}
+
+function scr_color_ball_off()
+{
+	if(global.ball_skin_powerup == true)
+	{
+		global.rebote_blocos = true;
+		with(obj_ball)
+		{
+			sprite_index = spr_ball;
+		}
+		if(global.ball_skin_powerup == true)
+		{
+			global.ball_skin_powerup = false;
+		}
 	}
 }

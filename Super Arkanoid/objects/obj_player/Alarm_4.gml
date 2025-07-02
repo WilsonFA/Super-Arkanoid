@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(y < 0)
-{
-	instance_destroy();
-}
-
+global.ball_skin_powerup = true;
+scr_color_ball_off();
 

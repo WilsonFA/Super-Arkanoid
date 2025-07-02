@@ -154,6 +154,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
+    {"name":"inst_2A27CDD3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7323040F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_15CBF6E7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_20422BE0","path":"rooms/Room1/Room1.yy",},
@@ -162,7 +163,6 @@
     {"name":"inst_4A5159D9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_75AC4B37","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_632CC3E4","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2A27CDD3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_870C67D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4A133133","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_61BC30BE","path":"rooms/Room1/Room1.yy",},

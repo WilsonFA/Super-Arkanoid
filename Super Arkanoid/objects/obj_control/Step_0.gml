@@ -15,4 +15,9 @@ if(!instance_exists(obj_block_blue) && !instance_exists(obj_block_gray) && !inst
 	audio_play_sound(snd_levelup, 10, false);
 }
 
+if(global.pontuacao - global.vidas_check >= 1000)
+{
+	global.vidas++;
+	global.vidas_check += 1000;
+}
 
