@@ -19,25 +19,32 @@ function scr_colisao_blocos(){
 
 function scr_sorteio_powerup()
 {
-	randomize();
-	var sorteio1 = irandom_range(1,10);
-	var sorteio2 = irandom_range(1,20);
-	var sorteio3 = irandom_range(1,40);
+	if(global.delay_itens == false)
+	{
+		randomize();
+		var sorteio1 = irandom_range(1,10);
+		var sorteio2 = irandom_range(1,20);
+		var sorteio3 = irandom_range(1,22);
 	
-	if(sorteio1 = 10)
-	{
-		instance_create_layer(x, y, "Instances", obj_item_powerup);
-		audio_play_sound(snd_item_powerup, 10, false);
-	}
-	else if(sorteio2 = 20)
-	{
-		instance_create_layer(x, y, "Instances", obj_item_power_up_down);
-		audio_play_sound(snd_item_powerup, 10, false);
-	}
-	if(sorteio3 = 40)
-	{
-		instance_create_layer(x, y, "Instances", obj_item_powerup_ball);
-		audio_play_sound(snd_item_powerup, 10, false);
+		if(sorteio1 = 1)
+		{
+			global.delay_itens = true;
+			instance_create_layer(x, y, "Instances", obj_item_powerup);
+			audio_play_sound(snd_item_powerup, 10, false);
+		}
+		
+		else if(sorteio2 = 1)
+		{
+			global.delay_itens = true;
+			instance_create_layer(x, y, "Instances", obj_item_power_up_down);
+			audio_play_sound(snd_item_powerup, 10, false);
+		}
+		else if(sorteio3 = 1)
+		{
+			global.delay_itens = true;
+			instance_create_layer(x, y, "Instances", obj_item_powerup_ball);
+			audio_play_sound(snd_item_powerup, 10, false);
+		}
 	}
 }
 

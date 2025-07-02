@@ -19,5 +19,12 @@ if(global.pontuacao - global.vidas_check >= 1000)
 {
 	global.vidas++;
 	global.vidas_check += 1000;
+	alarm[1] = 1;
+	alarm[2] = 60 * 3;
 }
 
+if (global.delay_itens == true and !alarme_chamado)
+{
+	alarme_chamado = true;
+	alarm[0] = 60 * 10;
+}

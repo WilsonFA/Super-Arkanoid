@@ -5,5 +5,5 @@ instance_destroy(other);
 audio_play_sound(snd_activate_powerup, 10, false);
 scr_color_ball_on();
 //alarm[3] = 1;
-alarm[4] = 60 * 5;
+alarm[4] = 60 * 10;
 
