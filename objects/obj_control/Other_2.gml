@@ -4,7 +4,7 @@
 global.vidas = 3;
 global.vidas_check = 0;
 global.recorde = 0;
-global.pontuacao = 900;
+global.pontuacao = 0;
 
 global.rebote_blocos = true;
 
