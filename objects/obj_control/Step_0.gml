@@ -12,6 +12,9 @@ if(!instance_exists(obj_block_blue) && !instance_exists(obj_block_gray) && !inst
 		room_goto(Room1);
 	}
 	
+	audio_sound_gain(snd_background, 0.75, 0);
+	audio_sound_gain(snd_background, 0, 1000);
+	
 	audio_play_sound(snd_levelup, 10, false);
 }
 
