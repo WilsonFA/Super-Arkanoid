@@ -10,3 +10,4 @@ global.rebote_blocos = true;
 
 global.ball_skin_powerup = false;
 global.delay_itens = false;
+global.paused = false;
