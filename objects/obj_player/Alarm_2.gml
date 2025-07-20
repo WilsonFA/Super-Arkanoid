@@ -4,4 +4,5 @@
 movement_speed = speed_player;
 sprite_index = spr_player;
 
+powerupordown = false;
 

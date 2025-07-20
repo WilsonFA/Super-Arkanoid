@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+powerupordown = true;
+
 randomize();
 instance_destroy(other);
 var power_up_or_down_or_shoot = irandom_range(1,3);

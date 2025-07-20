@@ -59,6 +59,7 @@ function scr_colisao_shot()
 	}
 }	
 
+/*
 function scr_color_ball_on()
 {
 	if(global.ball_skin_powerup == false)
@@ -86,3 +87,4 @@ function scr_color_ball_off()
 		}
 	}
 }
+*/
