@@ -34,6 +34,7 @@
   },
   "name":"Super Arkanoid",
   "resources":[
+    {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_ball_trail","path":"objects/obj_ball_trail/obj_ball_trail.yy",},},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},

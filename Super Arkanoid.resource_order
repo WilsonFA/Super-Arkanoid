@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"fnt_game","order":1,"path":"fonts/fnt_game/fnt_game.yy",},
     {"name":"obj_ball_trail","order":16,"path":"objects/obj_ball_trail/obj_ball_trail.yy",},
     {"name":"obj_ball","order":1,"path":"objects/obj_ball/obj_ball.yy",},
     {"name":"obj_block_blue","order":2,"path":"objects/obj_block_blue/obj_block_blue.yy",},

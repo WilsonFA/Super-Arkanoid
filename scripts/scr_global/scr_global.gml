@@ -10,3 +10,4 @@ global.delay_itens = false;
 global.paused = false;
 
 global.speed_ball = noone;
+global.speed_player = noone;

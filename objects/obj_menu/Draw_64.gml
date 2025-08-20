@@ -25,3 +25,8 @@ if(options_list == 1)
 	if(option_selected == 2) draw_set_color(c_yellow);
 	draw_text(room_width/2, room_height/2 + 24,"Hard")
 }
+
+draw_set_font(fnt_game);
+draw_set_halign(-1);
+draw_set_valign(-1);
+draw_set_color(-1);

@@ -1,5 +1,5 @@
 
-speed_player = 7;
+speed_player = global.speed_player;
 movement_speed = speed_player;
 powerup = false;
 powerupordown = false;
