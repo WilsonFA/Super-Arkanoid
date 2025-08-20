@@ -1,3 +1,4 @@
+global.recorde = ler_recorde();
 audio_play_sound(snd_shoot, 0, false);
 
 if (options_list == 1)

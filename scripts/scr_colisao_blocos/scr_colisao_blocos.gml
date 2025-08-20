@@ -14,6 +14,7 @@ function scr_colisao_blocos(){
 	if(global.pontuacao > global.recorde)
 	{
 		global.recorde = global.pontuacao;
+		salvar_recorde(global.recorde);
 	}
 }
 
