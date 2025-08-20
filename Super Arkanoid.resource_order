@@ -33,6 +33,7 @@
     {"name":"snd_levelup","order":3,"path":"sounds/snd_levelup/snd_levelup.yy",},
     {"name":"snd_lifeup","order":7,"path":"sounds/snd_lifeup/snd_lifeup.yy",},
     {"name":"snd_lose","order":1,"path":"sounds/snd_lose/snd_lose.yy",},
+    {"name":"snd_menu","order":12,"path":"sounds/snd_menu/snd_menu.yy",},
     {"name":"snd_pause","order":11,"path":"sounds/snd_pause/snd_pause.yy",},
     {"name":"snd_shoot","order":6,"path":"sounds/snd_shoot/snd_shoot.yy",},
     {"name":"spr_ball_powerup","order":18,"path":"sprites/spr_ball_powerup/spr_ball_powerup.yy",},

@@ -11,7 +11,10 @@ if(global.vidas < 1)
 {
 	global.pontuacao = 0;
 	global.vidas = 3;
-	room_goto(Room1);
+	obj_control.persistent = false;
+	obj_player.persistent = false;
+	audio_pause_all();
+	room_goto(Menu);
 	audio_play_sound(snd_gameover, 10, false);
 }
 else
