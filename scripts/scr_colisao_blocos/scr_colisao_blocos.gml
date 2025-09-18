@@ -26,6 +26,7 @@ function scr_sorteio_powerup()
 		var sorteio1 = irandom_range(1,10);
 		var sorteio2 = irandom_range(1,20);
 		var sorteio3 = irandom_range(1,22);
+		var sorteio4 = irandom_range(1,20);
 	
 		if(sorteio1 = 1)
 		{
@@ -44,6 +45,12 @@ function scr_sorteio_powerup()
 		{
 			global.delay_itens = true;
 			instance_create_layer(x, y, "Instances", obj_item_powerup_ball);
+			audio_play_sound(snd_item_powerup, 10, false);
+		}
+		else if(sorteio4 = 1)
+		{
+			global.delay_itens = true;
+			instance_create_layer(x, y, "Instances", obj_item_powerup_long);
 			audio_play_sound(snd_item_powerup, 10, false);
 		}
 	}

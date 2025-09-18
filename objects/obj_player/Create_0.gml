@@ -5,6 +5,8 @@ powerup = false;
 powerupordown = false;
 powerupball = false;
 
+boost_key = false;
+
 //Variável para saber quantas vezes o tiro foi disparado do powerup
 count_shot = 0;
 

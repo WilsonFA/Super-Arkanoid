@@ -3,6 +3,8 @@
 
 x = clamp(x, 32, room_width - 32);
 
+
+
 if(global.paused)
 {
 	//Alarm do Powerup dos tiros
